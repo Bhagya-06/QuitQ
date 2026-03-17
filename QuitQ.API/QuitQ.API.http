@@ -1,0 +1,6 @@
+@QuitQ.API_HostAddress = http://localhost:5234
+
+GET {{QuitQ.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
