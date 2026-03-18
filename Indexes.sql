@@ -10,7 +10,7 @@ CREATE NONCLUSTERED INDEX IX_Products_CategoryId ON Products(CategoryId);
 CREATE NONCLUSTERED INDEX IX_Products_BrandId ON Products(BrandId);
 CREATE NONCLUSTERED INDEX IX_Products_SellerId ON Products(SellerId);
 CREATE NONCLUSTERED INDEX IX_Products_IsActive ON Products(IsActive);
-CREATE NONCLUSTERED INDEX IX_Products_Price ON Products(Price);  -- Price range filters
+CREATE NONCLUSTERED INDEX IX_Products_Price ON Products(Price); 
 
 -- 3. SELLER DASHBOARD
 CREATE NONCLUSTERED INDEX IX_Products_SellerId_Active ON Products(SellerId, IsActive);
@@ -38,12 +38,9 @@ CREATE NONCLUSTERED INDEX IX_ShopReviews_SellerId ON ShopReviews(SellerId);
 CREATE NONCLUSTERED INDEX IX_Addresses_UserId ON Addresses(UserId);
 
 -- 9. COMPOSITE INDEXES 
-CREATE NONCLUSTERED INDEX IX_Products_Search 
-ON Products(Name, CategoryId, IsActive) INCLUDE (Price, Stock);
+CREATE NONCLUSTERED INDEX IX_Products_Search ON Products(Name, CategoryId, IsActive) INCLUDE (Price, Stock);
 
-CREATE NONCLUSTERED INDEX IX_OrderItems_OrderId 
-ON OrderItems(OrderId) INCLUDE (ProductId, Quantity, Price);
+CREATE NONCLUSTERED INDEX IX_OrderItems_OrderId ON OrderItems(OrderId) INCLUDE (ProductId, Quantity, Price);
 
--- 10. SELLER VERIFICATION (Admin dashboard)
-CREATE NONCLUSTERED INDEX IX_Sellers_VerificationStatus 
-ON Sellers(VerificationStatus);
+-- 10. SELLER VERIFICATION
+CREATE NONCLUSTERED INDEX IX_Sellers_VerificationStatus ON Sellers(VerificationStatus);
