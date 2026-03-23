@@ -156,3 +156,6 @@ C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\obj\Debug\net10.0\refin
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\obj\Debug\net10.0\QuitQ.API.pdb
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\obj\Debug\net10.0\QuitQ.API.genruntimeconfig.cache
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\obj\Debug\net10.0\ref\QuitQ.API.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll

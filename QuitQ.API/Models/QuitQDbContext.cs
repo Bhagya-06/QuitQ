@@ -21,6 +21,8 @@ public partial class QuitQDbContext : DbContext
 
     public virtual DbSet<Category> Categories { get; set; }
 
+    public virtual DbSet<Offer> Offers { get; set; }
+
     public virtual DbSet<Order> Orders { get; set; }
 
     public virtual DbSet<OrderItem> OrderItems { get; set; }
@@ -38,6 +40,16 @@ public partial class QuitQDbContext : DbContext
     public virtual DbSet<ShoppingCart> ShoppingCarts { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
+
+    public virtual DbSet<VwOrderSummary> VwOrderSummaries { get; set; }
+
+    public virtual DbSet<VwProductCatalog> VwProductCatalogs { get; set; }
+
+    public virtual DbSet<Wishlist> Wishlists { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=QuitQ;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -76,6 +88,15 @@ public partial class QuitQDbContext : DbContext
             entity.Property(e => e.Name).HasMaxLength(100);
         });
 
+        modelBuilder.Entity<Offer>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Offers__3214EC07096C7952");
+
+            entity.Property(e => e.DiscountPercentage).HasColumnType("decimal(5, 2)");
+            entity.Property(e => e.IsActive).HasDefaultValue(true);
+            entity.Property(e => e.Title).HasMaxLength(200);
+        });
+
         modelBuilder.Entity<Order>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Orders__3214EC07A682A97A");
@@ -111,6 +132,12 @@ public partial class QuitQDbContext : DbContext
         modelBuilder.Entity<OrderItem>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__OrderIte__3214EC07F4AC6AD8");
+
+            entity.ToTable(tb =>
+                {
+                    tb.HasTrigger("TRG_CheckStock");
+                    tb.HasTrigger("TRG_ReduceStock");
+                });
 
             entity.HasIndex(e => e.OrderId, "IX_OrderItems_OrderId");
 
@@ -262,6 +289,8 @@ public partial class QuitQDbContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__ShopRevi__3214EC0788FEA922");
 
+            entity.ToTable(tb => tb.HasTrigger("TRG_UpdateSellerRating"));
+
             entity.HasIndex(e => e.SellerId, "IX_ShopReviews_SellerId");
 
             entity.Property(e => e.Comment).HasMaxLength(1000);
@@ -328,6 +357,48 @@ public partial class QuitQDbContext : DbContext
             entity.Property(e => e.Phone).HasMaxLength(15);
             entity.Property(e => e.Role).HasMaxLength(20);
             entity.Property(e => e.Username).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<VwOrderSummary>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToView("VW_OrderSummary");
+
+            entity.Property(e => e.Customer).HasMaxLength(100);
+            entity.Property(e => e.Status).HasMaxLength(20);
+            entity.Property(e => e.Total).HasColumnType("decimal(12, 2)");
+        });
+
+        modelBuilder.Entity<VwProductCatalog>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToView("VW_ProductCatalog");
+
+            entity.Property(e => e.Brand).HasMaxLength(100);
+            entity.Property(e => e.Category).HasMaxLength(100);
+            entity.Property(e => e.Name).HasMaxLength(200);
+            entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
+        });
+
+        modelBuilder.Entity<Wishlist>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Wishlist__3214EC079FBA85F4");
+
+            entity.ToTable("Wishlist");
+
+            entity.HasIndex(e => new { e.UserId, e.ProductId }, "UQ__Wishlist__DCC80021F4E1840C").IsUnique();
+
+            entity.Property(e => e.CreatedDate).HasDefaultValueSql("(getdate())");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.Wishlists)
+                .HasForeignKey(d => d.ProductId)
+                .HasConstraintName("FK__Wishlist__Produc__2DE6D218");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Wishlists)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("FK__Wishlist__UserId__2CF2ADDF");
         });
 
         OnModelCreatingPartial(modelBuilder);

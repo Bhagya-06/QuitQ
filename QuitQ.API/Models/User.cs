@@ -42,4 +42,6 @@ public partial class User
     public virtual ICollection<ShopReview> ShopReviews { get; set; } = new List<ShopReview>();
 
     public virtual ICollection<ShoppingCart> ShoppingCarts { get; set; } = new List<ShoppingCart>();
+
+    public virtual ICollection<Wishlist> Wishlists { get; set; } = new List<Wishlist>();
 }

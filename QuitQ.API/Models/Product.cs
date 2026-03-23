@@ -38,4 +38,6 @@ public partial class Product
     public virtual Seller Seller { get; set; } = null!;
 
     public virtual ICollection<ShoppingCart> ShoppingCarts { get; set; } = new List<ShoppingCart>();
+
+    public virtual ICollection<Wishlist> Wishlists { get; set; } = new List<Wishlist>();
 }
