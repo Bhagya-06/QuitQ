@@ -17,7 +17,7 @@ public partial class Order
 
     public string? TrackingNumber { get; set; }
 
-    public DateTime? CreatedDate { get; set; }
+    public DateTime CreatedDate { get; set; }
 
     public int? PaymentId { get; set; }
 

@@ -23,7 +23,7 @@ public partial class User
 
     public string Role { get; set; } = null!;
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
 
     public DateTime? CreatedDate { get; set; }
 
@@ -38,8 +38,6 @@ public partial class User
     public virtual ICollection<Seller> SellerAdminApprovedByNavigations { get; set; } = new List<Seller>();
 
     public virtual Seller? SellerUser { get; set; }
-
-    public virtual ICollection<ShopReview> ShopReviews { get; set; } = new List<ShopReview>();
 
     public virtual ICollection<ShoppingCart> ShoppingCarts { get; set; } = new List<ShoppingCart>();
 

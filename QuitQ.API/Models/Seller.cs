@@ -39,7 +39,5 @@ public partial class Seller
 
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 
-    public virtual ICollection<ShopReview> ShopReviewsNavigation { get; set; } = new List<ShopReview>();
-
     public virtual User User { get; set; } = null!;
 }

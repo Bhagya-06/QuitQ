@@ -131,3 +131,19 @@ CREATE TABLE ShopReviews (
 
 ALTER TABLE Orders ADD CONSTRAINT FK_Orders_Payments FOREIGN KEY (PaymentId) REFERENCES Payments(Id);
 
+CREATE TABLE Offers (
+    Id INT IDENTITY PRIMARY KEY,
+    Title NVARCHAR(200),
+    DiscountPercentage DECIMAL(5,2), 
+    StartDate DATETIME2,
+    EndDate DATETIME2,
+    IsActive BIT DEFAULT 1
+);
+
+CREATE TABLE Wishlist (
+    Id INT IDENTITY PRIMARY KEY,
+    UserId INT FOREIGN KEY REFERENCES Users(Id),
+    ProductId INT FOREIGN KEY REFERENCES Products(Id),
+    CreatedDate DATETIME2 DEFAULT GETDATE(),
+    UNIQUE(UserId, ProductId)
+);

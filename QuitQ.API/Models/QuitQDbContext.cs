@@ -35,8 +35,6 @@ public partial class QuitQDbContext : DbContext
 
     public virtual DbSet<Seller> Sellers { get; set; }
 
-    public virtual DbSet<ShopReview> ShopReviews { get; set; }
-
     public virtual DbSet<ShoppingCart> ShoppingCarts { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
@@ -48,8 +46,9 @@ public partial class QuitQDbContext : DbContext
     public virtual DbSet<Wishlist> Wishlists { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=QuitQ;Trusted_Connection=True;TrustServerCertificate=True;");
+    {
+        // intentionally left empty — configured in Program.cs
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -283,28 +282,6 @@ public partial class QuitQDbContext : DbContext
                 .HasForeignKey<Seller>(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Sellers__UserId__6477ECF3");
-        });
-
-        modelBuilder.Entity<ShopReview>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__ShopRevi__3214EC0788FEA922");
-
-            entity.ToTable(tb => tb.HasTrigger("TRG_UpdateSellerRating"));
-
-            entity.HasIndex(e => e.SellerId, "IX_ShopReviews_SellerId");
-
-            entity.Property(e => e.Comment).HasMaxLength(1000);
-            entity.Property(e => e.CreatedDate).HasDefaultValueSql("(getdate())");
-
-            entity.HasOne(d => d.Seller).WithMany(p => p.ShopReviewsNavigation)
-                .HasForeignKey(d => d.SellerId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ShopRevie__Selle__1CBC4616");
-
-            entity.HasOne(d => d.User).WithMany(p => p.ShopReviews)
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ShopRevie__UserI__1DB06A4F");
         });
 
         modelBuilder.Entity<ShoppingCart>(entity =>
