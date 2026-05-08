@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Google.Apis.Auth;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using QuitQ.API.DTOs.Request;
@@ -52,7 +53,7 @@ namespace QuitQ.API.Services
                 Pincode = dto.PinCode
             };
 
-            
+
             _context.Addresses.Add(address);
             await _context.SaveChangesAsync();
 
@@ -233,6 +234,43 @@ namespace QuitQ.API.Services
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+        public async Task<string> GoogleLogin(string idToken)
+        {
+            var settings = new GoogleJsonWebSignature.ValidationSettings
+            {
+                Audience = new[]
+                {
+            _config["GoogleAuth:ClientId"]
+        }
+            };
+
+            var payload = await GoogleJsonWebSignature.ValidateAsync(
+                idToken,
+                settings
+            );
+
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == payload.Email);
+
+            if (user == null)
+            {
+                user = new User
+                {
+                    Name = payload.Name,
+                    Email = payload.Email,
+                    Username = payload.Email.Split('@')[0],
+                    Role = "Customer",
+                    IsActive = true,
+
+                    PasswordHash = ""
+                };
+
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+            }
+
+            return GenerateJwtToken(user);
         }
     }
 }

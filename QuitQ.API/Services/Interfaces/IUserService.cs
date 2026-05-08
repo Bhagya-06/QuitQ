@@ -10,5 +10,6 @@ namespace QuitQ.API.Services.Interfaces
         Task<UserProfileResponse> GetUserProfile(int userId);
         Task UpdateProfile(int userId, UpdateProfileRequest dto);
         Task<object> GetSalesReport(int sellerId);
+        Task<string> GoogleLogin(string idToken);
     }
 }

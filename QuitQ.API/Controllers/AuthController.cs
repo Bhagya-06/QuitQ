@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Google.Apis.Auth;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuitQ.API.DTOs.Request;
@@ -68,5 +69,15 @@ public class AuthController : ControllerBase
         var report = await _service.GetSalesReport(seller.Id);
 
         return Ok(ApiResponse<object>.Success(report, "Report generated"));
+    }
+
+    [HttpPost("google-login")]
+    public async Task<IActionResult> GoogleLogin(GoogleLoginRequest request)
+    {
+        var token = await _service.GoogleLogin(request.IdToken);
+
+        return Ok(ApiResponse<object>.Success(
+            new { token },
+            "Google login successful"));
     }
 }

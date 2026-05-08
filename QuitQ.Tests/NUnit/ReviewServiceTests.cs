@@ -7,7 +7,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QuitQ.Tests
+namespace QuitQ.Tests.NUnit
 {
     [TestFixture]
     public class ReviewServiceTests

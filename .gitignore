@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# SonarQube
+.sonarqube/
+
+# User files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Environment secrets
+appsettings.Development.json

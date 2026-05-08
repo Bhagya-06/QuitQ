@@ -7,7 +7,7 @@ using System;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace QuitQ.Tests
+namespace QuitQ.Tests.NUnit
 {
     public class OrderServiceTests
     {

@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace QuitQ.Tests
+namespace QuitQ.Tests.NUnit
 {
     public class UserServiceTests
     {

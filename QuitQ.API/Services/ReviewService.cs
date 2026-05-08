@@ -73,7 +73,7 @@ namespace QuitQ.API.Services
                 throw new Exception("Review not found");
 
             if (review.UserId != userId)
-                throw new Exception("You can only update your own review");
+                throw new UnauthorizedAccessException("You can only update your own review");
 
             review.Rating = rating;
             review.Comment = comment;
@@ -88,14 +88,11 @@ namespace QuitQ.API.Services
                 .Include(r => r.Product)
                 .FirstOrDefaultAsync(r => r.Id == id);
 
-            //if(review == null || review.UserId != userId)
-            //  throw new Exception("Unauthorized");
-
             if (review == null)
                 throw new Exception("Review not found");
 
             if (review.UserId != userId)
-                throw new Exception("You can only update your own review");
+                throw new UnauthorizedAccessException("You can only delete your own review");
 
             _context.ProductReviews.Remove(review);
             await _context.SaveChangesAsync();

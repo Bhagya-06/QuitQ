@@ -158,7 +158,15 @@ C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\obj\Debug\net10.0\ref\Q
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\FluentValidation.dll
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\FluentValidation.AspNetCore.dll
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Swashbuckle.SwaggerUi.dll
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\log4net.config
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\log4net.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Castle.Core.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Moq.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Google.Apis.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Google.Apis.Auth.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Google.Apis.Core.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\System.Management.dll
+C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\runtimes\win\lib\net7.0\System.Management.dll

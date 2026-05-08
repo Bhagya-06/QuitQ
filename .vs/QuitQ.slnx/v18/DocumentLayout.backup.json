@@ -3,120 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Migrations\\20260507133950_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuitQ.API\\Migrations\\20260507133950_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\interfaces\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\interfaces\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\reviewservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\reviewservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\dtos\\response\\salesreportresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\dtos\\response\\salesreportresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\dtos\\response\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\dtos\\response\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\dtos\\request\\googleloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\dtos\\request\\googleloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\models\\quitqdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\models\\quitqdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\moq\\productcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\moq\\productcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\moq\\ordercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\moq\\ordercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\dtos\\request\\updateprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\dtos\\request\\updateprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\moq\\offercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\moq\\offercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\moq\\categorycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\moq\\categorycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\moq\\cartcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\moq\\cartcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\quitq.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\quitq.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\moq\\brandcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\moq\\brandcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\moq\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\moq\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.api\\log4net.config||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3C267F04-05DE-DE57-6FC9-97EB289C5525}|QuitQ.API\\QuitQ.API.csproj|solutionrelative:quitq.api\\log4net.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|c:\\users\\bhagya b\\downloads\\fsd_training\\quitq\\quitq.tests\\moq\\admincontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C12BD3-10A6-E5D3-B46B-9B9DB0C6BE10}|QuitQ.Tests\\QuitQ.Tests.csproj|solutionrelative:quitq.tests\\moq\\admincontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 94,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Program.cs",
               "RelativeDocumentMoniker": "QuitQ.API\\Program.cs",
@@ -144,366 +92,197 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260507133950_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Migrations\\20260507133950_InitialCreate.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Migrations\\20260507133950_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Migrations\\20260507133950_InitialCreate.cs",
-              "RelativeToolTip": "QuitQ.API\\Migrations\\20260507133950_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:39:51.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\Interfaces\\IReviewService.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Services\\Interfaces\\IReviewService.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\Interfaces\\IReviewService.cs",
-              "RelativeToolTip": "QuitQ.API\\Services\\Interfaces\\IReviewService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:38:53.071Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "QuitQ.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\appsettings.Development.json",
+              "RelativeToolTip": "QuitQ.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-08T15:15:53.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Models\\User.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Models\\User.cs",
-              "RelativeToolTip": "QuitQ.API\\Models\\User.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAjwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:35:44.422Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\appsettings.json",
+              "RelativeDocumentMoniker": "QuitQ.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\appsettings.json",
+              "RelativeToolTip": "QuitQ.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-08T14:35:32.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Seller.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Models\\Seller.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Models\\Seller.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Models\\Seller.cs",
-              "RelativeToolTip": "QuitQ.API\\Models\\Seller.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:35:28.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\AdminService.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Services\\AdminService.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\AdminService.cs",
-              "RelativeToolTip": "QuitQ.API\\Services\\AdminService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAqwFYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T06:32:10.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "QuitQ.API\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwD0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T16:06:20.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReviewServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\ReviewServiceTests.cs",
-              "RelativeDocumentMoniker": "QuitQ.Tests\\ReviewServiceTests.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\ReviewServiceTests.cs",
-              "RelativeToolTip": "QuitQ.Tests\\ReviewServiceTests.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T06:35:40.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\ReviewService.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Services\\ReviewService.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\ReviewService.cs",
-              "RelativeToolTip": "QuitQ.API\\Services\\ReviewService.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAWwHcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T05:06:55.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "QuitQ.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T15:38:40.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SalesReportResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\DTOs\\Response\\SalesReportResponse.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\DTOs\\Response\\SalesReportResponse.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\DTOs\\Response\\SalesReportResponse.cs",
-              "RelativeToolTip": "QuitQ.API\\DTOs\\Response\\SalesReportResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:06:01.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\Interfaces\\IAdminService.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Services\\Interfaces\\IAdminService.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\Interfaces\\IAdminService.cs",
-              "RelativeToolTip": "QuitQ.API\\Services\\Interfaces\\IAdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:06:19.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\DTOs\\Response\\ProductResponse.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\DTOs\\Response\\ProductResponse.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\DTOs\\Response\\ProductResponse.cs",
-              "RelativeToolTip": "QuitQ.API\\DTOs\\Response\\ProductResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T16:10:23.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "QuitQ.API\\Services\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "QuitQ.API\\Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T17:11:16.264Z",
+              "WhenOpened": "2026-05-08T14:33:10.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "QuitQ.API\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\UserService.cs",
               "RelativeToolTip": "QuitQ.API\\Services\\UserService.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAowMcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAwwP4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T06:37:37.154Z",
+              "WhenOpened": "2026-05-08T14:32:24.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\ProductService.cs",
-              "RelativeToolTip": "QuitQ.API\\Services\\ProductService.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAqwH8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "QuitQ.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "QuitQ.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T14:58:41.544Z",
+              "WhenOpened": "2026-05-08T14:28:10.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "QuitQDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Models\\QuitQDbContext.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Models\\QuitQDbContext.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Models\\QuitQDbContext.cs",
-              "RelativeToolTip": "QuitQ.API\\Models\\QuitQDbContext.cs",
-              "ViewState": "AgIAAFwBAAAAAAAAAAAwwG4BAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "GoogleLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\DTOs\\Request\\GoogleLoginRequest.cs",
+              "RelativeDocumentMoniker": "QuitQ.API\\DTOs\\Request\\GoogleLoginRequest.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\DTOs\\Request\\GoogleLoginRequest.cs",
+              "RelativeToolTip": "QuitQ.API\\DTOs\\Request\\GoogleLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T15:40:26.553Z",
+              "WhenOpened": "2026-05-08T14:27:09.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WishlistController.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\WishlistController.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Controllers\\WishlistController.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\WishlistController.cs",
-              "RelativeToolTip": "QuitQ.API\\Controllers\\WishlistController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T04:18:13.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UpdateProfileRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\DTOs\\Request\\UpdateProfileRequest.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\DTOs\\Request\\UpdateProfileRequest.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\DTOs\\Request\\UpdateProfileRequest.cs",
-              "RelativeToolTip": "QuitQ.API\\DTOs\\Request\\UpdateProfileRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T15:39:30.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WishlistService.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\WishlistService.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Services\\WishlistService.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\WishlistService.cs",
-              "RelativeToolTip": "QuitQ.API\\Services\\WishlistService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwA8AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T15:34:40.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "QuitQ.API\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCgAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T05:19:43.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "QuitQ.Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\QuitQ.Tests.csproj",
-              "RelativeDocumentMoniker": "QuitQ.Tests\\QuitQ.Tests.csproj",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\QuitQ.Tests.csproj",
-              "RelativeToolTip": "QuitQ.Tests\\QuitQ.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-29T06:29:55.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 3,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "QuitQ.API\\Services\\OrderService.cs",
               "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Services\\OrderService.cs",
               "RelativeToolTip": "QuitQ.API\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T06:32:20.525Z",
+              "WhenOpened": "2026-05-07T18:00:12.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "QuitQ.API\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "OrderControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\OrderControllerTests.cs",
+              "RelativeDocumentMoniker": "QuitQ.Tests\\Moq\\OrderControllerTests.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\OrderControllerTests.cs",
+              "RelativeToolTip": "QuitQ.Tests\\Moq\\OrderControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T06:29:29.979Z",
+              "WhenOpened": "2026-05-07T17:59:24.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoggingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Middleware\\LoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Middleware\\LoggingMiddleware.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Middleware\\LoggingMiddleware.cs",
-              "RelativeToolTip": "QuitQ.API\\Middleware\\LoggingMiddleware.cs",
+              "DocumentIndex": 10,
+              "Title": "OfferControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\OfferControllerTests.cs",
+              "RelativeDocumentMoniker": "QuitQ.Tests\\Moq\\OfferControllerTests.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\OfferControllerTests.cs",
+              "RelativeToolTip": "QuitQ.Tests\\Moq\\OfferControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:58:25.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\CategoryControllerTests.cs",
+              "RelativeDocumentMoniker": "QuitQ.Tests\\Moq\\CategoryControllerTests.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\CategoryControllerTests.cs",
+              "RelativeToolTip": "QuitQ.Tests\\Moq\\CategoryControllerTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:57:17.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\ProductControllerTests.cs",
+              "RelativeDocumentMoniker": "QuitQ.Tests\\Moq\\ProductControllerTests.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\ProductControllerTests.cs",
+              "RelativeToolTip": "QuitQ.Tests\\Moq\\ProductControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T16:20:40.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\CartControllerTests.cs",
+              "RelativeDocumentMoniker": "QuitQ.Tests\\Moq\\CartControllerTests.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\CartControllerTests.cs",
+              "RelativeToolTip": "QuitQ.Tests\\Moq\\CartControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:55:57.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BrandControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\BrandControllerTests.cs",
+              "RelativeDocumentMoniker": "QuitQ.Tests\\Moq\\BrandControllerTests.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\BrandControllerTests.cs",
+              "RelativeToolTip": "QuitQ.Tests\\Moq\\BrandControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:53:52.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "QuitQ.Tests\\Moq\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\AuthControllerTests.cs",
+              "RelativeToolTip": "QuitQ.Tests\\Moq\\AuthControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:51:20.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\AdminControllerTests.cs",
+              "RelativeDocumentMoniker": "QuitQ.Tests\\Moq\\AdminControllerTests.cs",
+              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.Tests\\Moq\\AdminControllerTests.cs",
+              "RelativeToolTip": "QuitQ.Tests\\Moq\\AdminControllerTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T06:29:32.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "log4net.config",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\log4net.config",
-              "RelativeDocumentMoniker": "QuitQ.API\\log4net.config",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\log4net.config",
-              "RelativeToolTip": "QuitQ.API\\log4net.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-04-29T06:29:43.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "OfferController.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\OfferController.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Controllers\\OfferController.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\OfferController.cs",
-              "RelativeToolTip": "QuitQ.API\\Controllers\\OfferController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T05:21:13.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "log4net.config",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\log4net.config",
-              "RelativeDocumentMoniker": "QuitQ.API\\log4net.config",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\log4net.config",
-              "RelativeToolTip": "QuitQ.API\\log4net.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-04-28T15:02:58.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "QuitQ.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Bhagya B\\Downloads\\FSD_training\\QuitQ\\QuitQ.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "QuitQ.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T14:54:08.182Z",
+              "WhenOpened": "2026-05-07T16:27:24.348Z",
               "EditorCaption": ""
             }
           ]

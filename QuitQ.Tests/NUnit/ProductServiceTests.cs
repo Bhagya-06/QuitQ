@@ -282,5 +282,6 @@ namespace QuitQ.Tests
 
             Assert.IsNotNull(result);
         }
+
     }
 }
