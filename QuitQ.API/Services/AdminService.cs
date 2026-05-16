@@ -14,14 +14,32 @@ public class AdminService : IAdminService
     public async Task<List<User>> GetAllUsers()
     {
         return await _context.Users
-            .Where(u => u.Role == "User")
+            .Where(u => u.Role == "Buyer" || u.Role == "Seller")
             .ToListAsync();
     }
 
-    public async Task<List<User>> GetAllSellers()
+    public async Task<object> GetAllSellers()
     {
-        return await _context.Users
-            .Where(u => u.Role == "Seller")
+        return await _context.Sellers
+            .Include(s => s.User)
+            .Select(s => new
+            {
+                Id = s.Id,
+                Name = s.User.Name,
+                Email = s.User.Email,
+                Phone = s.User.Phone,
+                StoreName = s.StoreName,
+                City = s.City,
+                Country = s.Country,
+                Gstin = s.Gstin,
+                VerificationStatus = s.VerificationStatus,
+                VerificationDate = s.VerificationDate,
+                IsActive = s.User.IsActive,
+                ShopReviews = s.ShopReviews,
+                IdProofDocument = s.IdProofDocument,
+                IdProofNumber = s.IdProofNumber,
+                BusinessLicense = s.BusinessLicense
+            })
             .ToListAsync();
     }
 
@@ -38,12 +56,14 @@ public class AdminService : IAdminService
 
     public async Task DeleteSeller(int sellerId)
     {
-        var seller = await _context.Users.FindAsync(sellerId);
+        var seller = await _context.Sellers
+            .Include(s => s.User)
+            .FirstOrDefaultAsync(s => s.Id == sellerId);
 
         if (seller == null)
             throw new Exception("Seller not found");
 
-        seller.IsActive = false;
+        seller.User.IsActive = false;
 
         await _context.SaveChangesAsync();
     }
@@ -57,8 +77,12 @@ public class AdminService : IAdminService
         if (seller == null)
             throw new Exception("Seller not found");
 
-        if (status != "Approved" && status != "Rejected")
+        var validStatuses = new[]{"Pending","Verified","Rejected"};
+
+        if (!validStatuses.Contains(status))
+        {
             throw new Exception("Invalid status");
+        }
 
         seller.VerificationStatus = status;
         seller.VerificationDate = DateTime.UtcNow;
@@ -67,7 +91,14 @@ public class AdminService : IAdminService
         if (status == "Rejected")
             seller.User.IsActive = false;
 
-        await _context.SaveChangesAsync();
+        try
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.InnerException?.Message);
+        }
     }
 
     public async Task<SalesReportResponse> GetSalesReport()

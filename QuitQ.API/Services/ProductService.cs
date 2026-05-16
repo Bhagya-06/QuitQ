@@ -75,6 +75,7 @@ namespace QuitQ.API.Services
                 .Include(p => p.Category)
                 .Include(p => p.Brand)
                 .Include(p => p.Seller)
+                .Include(p => p.ProductReviews)
                 .AsQueryable();
 
             if (categoryId.HasValue)
@@ -104,6 +105,7 @@ namespace QuitQ.API.Services
                 .Include(p => p.Category)
                 .Include(p => p.Brand)
                 .Include(p => p.Seller)
+                .Include(p => p.ProductReviews)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null)

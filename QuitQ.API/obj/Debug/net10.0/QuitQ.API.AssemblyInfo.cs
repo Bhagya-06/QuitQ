@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuitQ.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b59ffab8a778ea8113361f4a79a000ba5980b58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fff4907f061f5841a2616d0fef4b9c5fd631506")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuitQ.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuitQ.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

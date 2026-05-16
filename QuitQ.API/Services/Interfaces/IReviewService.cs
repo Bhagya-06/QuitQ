@@ -12,5 +12,6 @@ namespace QuitQ.API.Services.Interfaces
         Task UpdateReview(int id, int userId, int rating, string comment);
         Task DeleteReview(int id, int userId);
         Task<double> GetAverageProductRating(int productId);
+        Task<bool> HasPurchasedProduct(int userId, int productId);
     }
 }

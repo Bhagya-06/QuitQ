@@ -23,6 +23,12 @@ namespace QuitQ.API.Services
             if (product == null)
                 throw new Exception("Invalid product");
 
+            var hasPurchased = await _context.OrderItems.Include(o => o.Order).AnyAsync(o =>
+            o.ProductId == dto.ProductId && o.Order.UserId == userId);
+
+            if (!hasPurchased)
+                throw new Exception("You can review only purchased products");
+
             var alreadyReviewed = await _context.ProductReviews
                 .AnyAsync(r => r.ProductId == dto.ProductId && r.UserId == userId);
 
@@ -53,6 +59,8 @@ namespace QuitQ.API.Services
                 .Select(r => new ProductReviewResponse
                 {
                     Id = r.Id,
+                    UserId = r.UserId,
+                    ProductId = r.ProductId,
                     Rating = r.Rating,
                     Comment = r.Comment,
                     ReviewImages = r.ReviewImages,
@@ -104,6 +112,15 @@ namespace QuitQ.API.Services
             return await _context.ProductReviews
                 .Where(x => x.ProductId == productId)
                 .AverageAsync(x => (double?)x.Rating) ?? 0;
+        }
+
+        public async Task<bool> HasPurchasedProduct(int userId, int productId)
+        {
+            return await _context.OrderItems
+                .Include(o => o.Order)
+                .AnyAsync(o =>
+                    o.ProductId == productId &&
+                    o.Order.UserId == userId);
         }
 
     }

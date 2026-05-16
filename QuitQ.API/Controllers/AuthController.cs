@@ -71,13 +71,108 @@ public class AuthController : ControllerBase
         return Ok(ApiResponse<object>.Success(report, "Report generated"));
     }
 
-    [HttpPost("google-login")]
-    public async Task<IActionResult> GoogleLogin(GoogleLoginRequest request)
+    [HttpGet("address")]
+    [Authorize]
+    public async Task<IActionResult> GetAddresses()
     {
-        var token = await _service.GoogleLogin(request.IdToken);
+        var userId = int.Parse(
+            User.FindFirst(ClaimTypes.NameIdentifier)?.Value
+        );
 
-        return Ok(ApiResponse<object>.Success(
-            new { token },
-            "Google login successful"));
+        var addresses = await _service.GetAddresses(userId);
+
+        return Ok(
+            ApiResponse<object>.Success(
+                addresses,
+                "Addresses retrieved successfully"
+            )
+        );
+    }
+
+    [HttpPost("google-login")]
+    public async Task<IActionResult> GoogleLogin(
+    GoogleLoginRequest request)
+    {
+        try
+        {
+            var token =
+                await _service.GoogleLogin(
+                    request.IdToken
+                );
+
+            return Ok(
+                ApiResponse<object>.Success(
+                    new { token },
+                    "Google login successful"
+                )
+            );
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(
+                ApiResponse<object>.Fail(
+                    new List<string>
+                    {
+                    ex.Message,
+                    ex.InnerException?.Message
+                    }
+                )
+            );
+        }
+    }
+
+    [Authorize(Roles = "Seller")]
+    [HttpGet("seller-products")]
+    public async Task<IActionResult> GetSellerProducts()
+    {
+        var userId = int.Parse(
+            User.FindFirst(ClaimTypes.NameIdentifier)!.Value
+        );
+
+        var products = await _service
+            .GetSellerProducts(userId);
+
+        return Ok(
+            ApiResponse<object>.Success(
+                products,
+                "Seller products retrieved"
+            )
+        );
+    }
+
+    [Authorize(Roles = "Seller")]
+    [HttpGet("seller-orders")]
+    public async Task<IActionResult> GetSellerOrders()
+    {
+        var userId = int.Parse(
+            User.FindFirst(ClaimTypes.NameIdentifier)!.Value
+        );
+
+        var orders = await _service
+            .GetSellerOrders(userId);
+
+        return Ok(
+            ApiResponse<object>.Success(
+                orders,
+                "Seller orders retrieved"
+            )
+        );
+    }
+
+    [Authorize(Roles = "Seller")]
+    [HttpPut("order-status/{id}")]
+    public async Task<IActionResult> UpdateOrderStatus(
+    int id,
+    [FromQuery] string status
+)
+    {
+        await _service.UpdateOrderStatus(id, status);
+
+        return Ok(
+            ApiResponse<object>.Success(
+                null,
+                "Order status updated"
+            )
+        );
     }
 }

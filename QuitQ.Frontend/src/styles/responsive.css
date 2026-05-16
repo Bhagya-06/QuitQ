@@ -1,0 +1,82 @@
+/* TABLETS */
+
+@media (max-width: 992px) {
+
+  .container {
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .navbar {
+
+    padding: 10px;
+  }
+
+  .card {
+
+    margin-bottom: 20px;
+  }
+
+  .table-responsive {
+
+    overflow-x: auto;
+  }
+
+  .btn {
+
+    width: 100%;
+  }
+
+  .mobile-stack {
+
+    flex-direction: column !important;
+  }
+
+  .mobile-center {
+
+    text-align: center;
+  }
+
+  .hide-mobile {
+
+    display: none !important;
+  }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 576px) {
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .card {
+
+    padding: 16px !important;
+  }
+}

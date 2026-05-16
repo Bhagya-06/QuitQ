@@ -4,6 +4,7 @@ using QuitQ.API.DTOs.Response;
 using System.Security.Claims;
 
 [ApiController]
+[Authorize(Roles = "Admin")]
 [Route("api/admin")]
 public class AdminController : ControllerBase
 {
@@ -41,7 +42,6 @@ public class AdminController : ControllerBase
         return Ok(ApiResponse<string>.Success(null, "Seller deactivated"));
     }
 
-    [Authorize(Roles = "Admin")]
     [HttpPut("seller/{id}/verify")]
     public async Task<IActionResult> VerifySeller(int id, string status)
     {
@@ -52,7 +52,6 @@ public class AdminController : ControllerBase
         return Ok(ApiResponse<string>.Success(null, $"Seller {status} successfully"));
     }
 
-    [Authorize(Roles = "Admin")]
     [HttpGet("reports/sales")]
     public async Task<IActionResult> GetSalesReport()
     {

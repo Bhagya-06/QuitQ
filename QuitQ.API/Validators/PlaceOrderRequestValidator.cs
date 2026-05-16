@@ -11,7 +11,7 @@ namespace QuitQ.API.Validators
         {
             RuleFor(x => x.AddressId).GreaterThan(0);
 
-            RuleFor(x => x.PaymentMethod).NotEmpty().IsInEnum().WithMessage("Invalid payment method. Your options are UPI, Card, Netbanking and CashOnDelivery");
+            RuleFor(x => x.PaymentMethod).IsInEnum().WithMessage("Invalid payment method. Your options are UPI, Card, Netbanking and CashOnDelivery");
         }
     }
 }

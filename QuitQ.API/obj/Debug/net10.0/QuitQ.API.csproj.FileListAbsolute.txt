@@ -163,7 +163,6 @@ C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\log4n
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\log4net.dll
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Castle.Core.dll
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Moq.dll
-C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Google.Apis.dll
 C:\Users\Bhagya B\Downloads\FSD_training\QuitQ\QuitQ.API\bin\Debug\net10.0\Google.Apis.Auth.dll

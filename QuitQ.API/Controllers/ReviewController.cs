@@ -56,5 +56,26 @@ namespace QuitQ.API.Controllers
             return Ok(ApiResponse<string>.Success(null, "Review deleted"));
         }
 
+        [Authorize]
+        [HttpGet("can-review/{productId}")]
+        public async Task<IActionResult> CanReview(int productId)
+        {
+            var userId = int.Parse(
+                User.FindFirst(ClaimTypes.NameIdentifier)!.Value
+            );
+
+            var result = await _service.HasPurchasedProduct(
+                userId,
+                productId
+            );
+
+            return Ok(
+                ApiResponse<bool>.Success(
+                    result,
+                    "Review permission checked"
+                )
+            );
+        }
+
     }
 }

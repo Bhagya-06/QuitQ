@@ -119,7 +119,13 @@ namespace QuitQ.API.Services
                     StoreName = user.SellerUser.StoreName,
                     City = user.SellerUser.City,
                     Country = user.SellerUser.Country,
-                    VerificationStatus = user.SellerUser.VerificationStatus
+                    VerificationStatus = user.SellerUser.VerificationStatus,
+                    Gstin = user.SellerUser.Gstin,
+                    IdProofDocument = user.SellerUser.IdProofDocument,
+                    IdProofNumber = user.SellerUser.IdProofNumber,
+                    BusinessLicense = user.SellerUser.BusinessLicense,
+                    BankAccountNumber = user.SellerUser.BankAccountNumber,
+                    BankIfsc = user.SellerUser.BankIfsc
                 },
                 CreatedDate = user.CreatedDate,
 
@@ -185,6 +191,24 @@ namespace QuitQ.API.Services
 
                 if (!string.IsNullOrEmpty(dto.Country))
                     seller.Country = dto.Country;
+
+                if (!string.IsNullOrEmpty(dto.Gstin))
+                    seller.Gstin = dto.Gstin;
+
+                if (!string.IsNullOrEmpty(dto.IdProofDocument))
+                    seller.IdProofDocument = dto.IdProofDocument;
+
+                if (!string.IsNullOrEmpty(dto.IdProofNumber))
+                    seller.IdProofNumber = dto.IdProofNumber;
+
+                if (!string.IsNullOrEmpty(dto.BusinessLicense))
+                    seller.BusinessLicense = dto.BusinessLicense;
+
+                if (!string.IsNullOrEmpty(dto.BankAccountNumber))
+                    seller.BankAccountNumber = dto.BankAccountNumber;
+
+                if (!string.IsNullOrEmpty(dto.BankIfsc))
+                    seller.BankIfsc = dto.BankIfsc;
             }
 
             await _context.SaveChangesAsync();
@@ -206,6 +230,13 @@ namespace QuitQ.API.Services
                 TotalSales = totalSales,
                 TotalOrders = totalOrders
             };
+        }
+
+        public async Task<List<Address>> GetAddresses(int userId)
+        {
+            return await _context.Addresses
+                .Where(a => a.UserId == userId)
+                .ToListAsync();
         }
 
         private string GenerateJwtToken(User user)
@@ -260,17 +291,93 @@ namespace QuitQ.API.Services
                     Name = payload.Name,
                     Email = payload.Email,
                     Username = payload.Email.Split('@')[0],
-                    Role = "Customer",
+
+                    Role = "Buyer",
                     IsActive = true,
 
-                    PasswordHash = ""
+                    PasswordHash = "",
+
+                    Address = "",
+                    Phone = "",
                 };
 
                 _context.Users.Add(user);
+
                 await _context.SaveChangesAsync();
             }
 
             return GenerateJwtToken(user);
+        }
+
+        public async Task<object> GetSellerProducts(int userId)
+        {
+            var seller = await _context.Sellers
+                .FirstOrDefaultAsync(s => s.UserId == userId);
+
+            if (seller == null)
+                throw new Exception("Seller not found");
+
+            var products = await _context.Products
+                .Where(p => p.SellerId == seller.Id)
+                .Select(p => new
+                {
+                    p.Id,
+                    p.Name,
+                    p.Description,
+                    p.Price,
+                    p.Stock,
+                    p.ImageUrl,
+                    p.CategoryId,
+                    p.BrandId,
+                    p.SellerId,
+                    p.IsActive,
+                    p.CreatedDate
+                })
+                .ToListAsync();
+
+            return products;
+
+            return products;
+        }
+
+        public async Task<object> GetSellerOrders(int userId)
+        {
+            var seller = await _context.Sellers
+                .FirstOrDefaultAsync(s => s.UserId == userId);
+
+            if (seller == null)
+                throw new Exception("Seller not found");
+
+            var orders = await _context.OrderItems
+                .Include(o => o.Order)
+                .Include(o => o.Product)
+                .Where(o => o.Product.SellerId == seller.Id)
+                .Select(o => new
+                {
+                    OrderId = o.OrderId,
+                    ProductName = o.Product.Name,
+                    Quantity = o.Quantity,
+                    Price = o.Price,
+                    Status = o.Order.Status,
+                    CustomerId = o.Order.UserId,
+                    OrderDate = o.Order.CreatedDate
+                })
+                .ToListAsync();
+
+            return orders;
+        }
+
+        public async Task UpdateOrderStatus(int orderId, string status)
+        {
+            var order = await _context.Orders
+                .FirstOrDefaultAsync(o => o.Id == orderId);
+
+            if (order == null)
+                throw new Exception("Order not found");
+
+            order.Status = status;
+
+            await _context.SaveChangesAsync();
         }
     }
 }
