@@ -45,12 +45,40 @@ public class AdminService : IAdminService
 
     public async Task DeleteUser(int userId)
     {
-        var user = await _context.Users.FindAsync(userId);
+        var user = await _context.Users
+            .FindAsync(userId);
 
         if (user == null)
             throw new Exception("User not found");
 
+        var seller = await _context.Sellers
+            .FirstOrDefaultAsync(s => s.UserId == userId);
+
+        if (seller != null)
+        {
+            _context.Sellers.Remove(seller);
+        }
+
+        var addresses = _context.Addresses
+            .Where(x => x.UserId == userId);
+
+        var cartItems = _context.ShoppingCarts
+            .Where(x => x.UserId == userId);
+
+        var wishlists = _context.Wishlists
+            .Where(x => x.UserId == userId);
+
+        var reviews = _context.ProductReviews
+            .Where(x => x.UserId == userId);
+
+        _context.Addresses.RemoveRange(addresses);
+        _context.ShoppingCarts.RemoveRange(cartItems);
+        _context.Wishlists.RemoveRange(wishlists);
+        _context.ProductReviews.RemoveRange(reviews);
+
+        // Delete user
         _context.Users.Remove(user);
+
         await _context.SaveChangesAsync();
     }
 

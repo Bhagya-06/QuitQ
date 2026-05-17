@@ -31,15 +31,42 @@ public class AdminController : ControllerBase
     [HttpDelete("user/{id}")]
     public async Task<IActionResult> DeleteUser(int id)
     {
-        await _service.DeleteUser(id);
-        return Ok(ApiResponse<string>.Success(null, "User deleted"));
+        try
+        {
+            await _service.DeleteUser(id);
+
+            return Ok(
+                ApiResponse<string>.Success(
+                    null,
+                    "User deleted"
+                )
+            );
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new
+            {
+                ex.Message,
+                Inner = ex.InnerException?.Message
+            });
+        }
     }
 
     [HttpDelete("seller/{id}")]
     public async Task<IActionResult> DeleteSeller(int id)
     {
+        try {
         await _service.DeleteSeller(id);
         return Ok(ApiResponse<string>.Success(null, "Seller deactivated"));
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new
+            {
+                ex.Message,
+                Inner = ex.InnerException?.Message
+            });
+        }
     }
 
     [HttpPut("seller/{id}/verify")]

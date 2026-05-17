@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuitQ.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fff4907f061f5841a2616d0fef4b9c5fd631506")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+631d249c4d73c04b78b8efdeed5a945acec7db6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuitQ.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuitQ.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -44,11 +44,10 @@ function EditProfile() {
         username: data.username || "",
         phone: data.phone || "",
         gender: data.gender || "",
+        city: data.city || "",
+        country: data.country || "",
 
         storeName: data.seller?.storeName || "",
-        city: data.seller?.city || "",
-        country: data.seller?.country || "",
-
         gstin: data.seller?.gstin || "",
         idProofNumber: data.seller?.idProofNumber || "",
         idProofDocument: data.seller?.idProofDocument || "",
@@ -144,6 +143,22 @@ function EditProfile() {
             <option>Female</option>
           </select>
 
+          <input
+            name="city"
+            value={formData.city}
+            onChange={handleChange}
+            className="form-control mb-3"
+            placeholder="City"
+          />
+
+          <input
+            name="country"
+            value={formData.country}
+            onChange={handleChange}
+            className="form-control mb-3"
+            placeholder="Country"
+          />
+
           {isSeller && (
             <>
               <input
@@ -152,22 +167,6 @@ function EditProfile() {
                 onChange={handleChange}
                 className="form-control mb-3"
                 placeholder="Store Name"
-              />
-
-              <input
-                name="city"
-                value={formData.city}
-                onChange={handleChange}
-                className="form-control mb-3"
-                placeholder="City"
-              />
-
-              <input
-                name="country"
-                value={formData.country}
-                onChange={handleChange}
-                className="form-control mb-3"
-                placeholder="Country"
               />
 
               <hr className="my-3" />
